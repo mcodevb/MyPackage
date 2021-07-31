@@ -3,6 +3,9 @@ uuid = "8f174bb4-273d-43ed-bac3-9beead4219dc"
 authors = ["mh"]
 version = "0.1.0"
 
+[deps]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
 [compat]
 julia = "1"
 
