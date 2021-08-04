@@ -1,6 +1,6 @@
 module MyPackage
    using ForwardDiff
-   export my_f
+   export my_f, my_f_der
 
     function my_f(x)
         return 2x
