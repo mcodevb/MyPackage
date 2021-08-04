@@ -6,10 +6,10 @@ module MyPackage
    export my_f, my_f_der
 
    # define your function here
-   my_f(x)=2x;
+   my_f(x)=3x^2-5x+1;
    
    # automated differentiation using ForwardDiff Package.
-   my_f_der(x)=ForwardDiff.derivative(x->my_f(x))
+   my_f_der(t)=ForwardDiff.derivative(x->my_f(x),t)
 
 
 end
