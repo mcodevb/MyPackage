@@ -1,5 +1,8 @@
 module MyPackage
+   # Declare dependencies
    using ForwardDiff
+
+   # Fuctions to export for external use
    export my_f, my_f_der
 
    # define your function here
